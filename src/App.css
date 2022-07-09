@@ -1,0 +1,59 @@
+body {
+	background: rgba(255, 255, 0, 0.86);
+	color: #ffffff;
+  align-items: center;
+  
+}
+.movie-list{
+	display: flex;
+  flex-wrap: wrap;
+  margin-top: 20vh;
+  width: 90%;
+  margin: auto;
+  margin-left: 6%;
+  
+}
+
+.center{
+  text-align: center;
+  color: rebeccapurple;
+}
+
+.image{
+	display: inline-block;
+	height: 250px;
+	width: 210px;
+  border-radius: 1rem;
+  margin-top: 2vh;
+}
+.image:hover{
+  transform: scale(1.2);
+  transition: 0.5s is in;
+}
+.images{
+	margin: 20px;
+  
+}
+
+.input-bar{
+	border: none;
+	border:solid 1px #ccc;
+  border-radius: 10px;
+	width: 50%;
+	height: 40px;
+  text-align: center;
+  
+  
+}
+#intro{
+  position: fixed;
+  right: 20vw;
+}
+#caption{
+  color: black;
+  text-align: center;
+  
+  
+}
+
+
